@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Pessoal e portifolio do Luciano. Conheça minha Trajetoria">
+    <title>Sobre Mim | Luciano dos Santos - Ciência da Computação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="conteiner-conteiner-header">
+            <a href="#inicio" class="logo">Luciano dos Santos Nascimento</a>
+            <nav aria-label="Navegação Primaria">
+                <ul class="memu-navegacao">
+                    <li><a href="#trajetoria">Trajetória</a></li>
+                    <li><a href="#curiosidade">Curiosidade</a></li>
+                    <li><a href="#artigo">Recomendações</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="conteiner-layout-grid">
+        <!--Conteudo principal-->
+        <main id="conteudo-principal">
+            <article class="card-artigo" id="inicio">
+                <header class="head">
+                    <h1>Olá, eu sou o Luciano</h1>
+                    <p class="meta-info">
+                        Publicado em <time datetime="2026-08-27"> 27 de agosto de 2026</time>
+                        Categoria: <span> Tecnologia e ensino</span>
+                    </p>
+                </header>
+                <figure class="figura-destaque">
+                    <img src="" alt="Foto do Luciano" width="800" height="450" loading="eager" class="imagem-resposiva">
+                </figure>
+                <section id="trajetoria" class="secao-conteudo">
+                    <h2>Trajetoria academica</h2>
+                    <p>Sou o Luciano, o maior dev web do mundo</p>
+                </section>
+                <section id="curiosidade">
+                    <h2>Curiosidade sobre mim</h2>
+                    <ul>
+                        <li><strong>Sou dev Web</strong></li>
+                        <li><p>Já ganhai 1 milhão por mês</p></li>
+                        <li><p>Namoro com a Sabrina Carpinter</p></li>
+                    </ul>
+                </section>
+                <div class="acoes-artigos">
+                    <button type="button" id="btn-seguro" class="btn-destaque" aria-expanded="false" aria-controls="mensagem-secreta">
+                        Descobrir Frase do dia
+                    </button>
+                    <div id="mensagem-secreta" class="mensagem-oculta" role="region" aria-live="polite" hidden>
+                        <p><em>
+                            A web foi feita para todos. HTML semântico, acessibilidade e performamce não são opcionais. São a fundação
+                        </em></p>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <aside barra-lateral id="artigos" aria-label="Conteudo complementar">
+            <div class="card-sidebar">
+                <h3>Leitura Recomendadas</h3>
+                <ul>
+                    <li><a href="#">Guia Pratico de HTML5 semântico</a></li>
+                    <li><a href="#">Diretrizes e constraste</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer class="rodape-principal">
+        <div class="conteiner">
+            <p>&copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
